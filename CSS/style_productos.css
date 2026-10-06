@@ -1,0 +1,268 @@
+
+.contenedor-producto {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.titulo-producto {
+    font-family: 'Rye', serif;
+    font-size: 3rem;
+    color: #3c1701;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-color: #e69121;
+    text-underline-offset: 10px;
+}
+
+.descripcion {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.caja-imagen {
+    flex: 1;
+    background-color: #FFF;
+    border: 3px solid #3c1701;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.caja-imagen img {
+    max-width: 100%;
+    max-height: 400px;
+    filter: drop-shadow(0 10px 10px rgba(0,0,0,0.3));
+}
+
+.caja-descripcion {
+    flex: 1.5;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #3c1701;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.caja-descripcion h2 {
+    font-family: 'Rye', serif;
+    font-size: 1.5rem;
+    color: #e69121;
+    margin-bottom: 20px;
+}
+
+.caja-descripcion p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #3c1701;
+    margin-bottom: 15px;
+}
+
+.ficha-tecnica {
+    background-color: #3c1701;
+    color: #FFF;
+    border-radius: 15px;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    border: 2px solid #e69121;
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.ficha-tecnica-titulo {
+    font-family: 'Rye', serif;
+    font-size: 1.8rem;
+    color: #e69121;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(230, 145, 33, 0.3);
+    padding-bottom: 15px;
+}
+
+.ficha-tecnica-apartados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 40px;
+}
+
+.ficha-tecnica-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+}
+
+.titulo {
+    font-weight: bold;
+    color: #e69121;
+    font-family: 'Roboto', sans-serif;
+}
+
+.valor {
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    font-weight: normal;
+}
+
+.seccion-compra {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.tarjeta-compra {
+    background-color: #fff8e1;
+    border: 3px solid #3c1701;
+    border-radius: 15px;
+    padding: 25px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.cabecera-precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e69121;
+    padding-bottom: 15px;
+}
+
+.precio {
+    font-family: 'Rye', serif;
+    font-size: 2.5rem;
+    color: #3c1701;
+}
+
+.unidades {
+    font-size: 1rem;
+    color: #5d4037;
+    margin-left: 5px;
+}
+
+.indicador-stock {
+    font-size: 0.9rem;
+    color: #2e7d32;
+    font-weight: bold;
+    background-color: #e8f5e9;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #2e7d32;
+}
+
+.disponibilidad {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.acciones {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.cantidad input {
+    width: 80px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid #3c1701;
+    border-radius: 10px;
+    background-color: #fff8e1;
+    font-weight: bold;
+    color: #3c1701;
+}
+
+.añadir {
+    flex: 1;
+    background-color: #3c1701;
+    color: #e69121;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 0 #1a0a00;
+}
+
+.añadir:hover {
+    transform: translateY(-2px);
+    background-color: #5d4037;
+    box-shadow: 0 6px 0 #1a0a00;
+}
+
+.añadir:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 0 #1a0a00;
+}
+
+.icono-carrito {
+    width: 24px;
+    height: 24px;
+}
+
+.info {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .contenedor-producto {
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+
+    .titulo-producto {
+        font-size: 2.2rem;
+    }
+
+    .descripcion {
+        flex-direction: column;
+    }
+
+    .caja-imagen img {
+        max-height: 300px; 
+    }
+
+    .ficha-tecnica-apartados {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .cabecera-precio {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .acciones {
+        flex-direction: column;
+    }
+
+    .cantidad {
+        display: flex;
+        justify-content: center;
+    }
+
+    .añadir {
+        padding: 15px;
+        width: 100%;
+    }
+}

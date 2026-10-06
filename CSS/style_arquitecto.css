@@ -1,0 +1,71 @@
+
+.header-arquitecto {
+    text-align: center;
+    padding: 60px 20px 40px;
+    color: #3c1701;
+}
+
+.header-arquitecto h1 {
+    font-family: 'Rye', serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.4);
+}
+
+.header-arquitecto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #3c1701;
+    opacity: 0.9;
+}
+
+.perfil-tarjeta {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    display: flex;
+    background-color: #FFF;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(60, 23, 1, 0.25);
+    border: 4px solid #3c1701;
+}
+
+.perfil-texto {
+    flex: 1.5; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: radial-gradient(#fff8e1 10%, transparent 11%);
+    background-size: 20px 20px;
+    background-color: #ffffff;
+}
+
+.perfil-texto h2 {
+    font-family: 'Rye', serif;
+    font-size: 2.5rem;
+    color: #e69121; 
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 0 #3c1701;
+}
+
+.perfil-texto h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #3c1701;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #e69121;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.perfil-texto p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a3b32;
+    margin-bottom: 15px;
+}
